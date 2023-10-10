@@ -1,0 +1,298 @@
+/*Custom CSS*/
+
+
+
+.auth-fluid .auth-fluid-form-box{
+background-color: #FDF7F3;
+
+}
+.auth-fluid .auth-fluid-form-box {
+    color: red;
+}
+.error-message{
+   text-align: center;
+}
+.auth-fluid .auth-fluid-form-box h4 {
+    color: #000;
+    font-size: 2.25rem;
+    font-family: 'Rubik';
+}
+.auth-fluid .auth-fluid-form-box button {
+    background-image: linear-gradient(315deg, #ffcb93 0%, #fe8f05 74%);
+    border-radius: 10px;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 17px;
+    width: 100%;
+    color: #fff;
+    border: none;
+}
+.auth-fluid .auth-fluid-form-box label {
+    color: #000;
+}
+.auth-fluid .auth-fluid-form-box input::placeholder {
+    color: #b3a6f1;
+}
+.auth-fluid .auth-fluid-form-box input {
+    color: #000;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    background: none;
+    padding-left: 0px;
+}
+.auth-fluid .auth-fluid-form-box .input-group-text {
+    background: none !important;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.auth-fluid .auth-fluid-form-box input[type=checkbox] {
+    background: inherit;
+    border: indianred;
+    background: white;
+    border-radius: 4px;
+}
+.auth-fluid .auth-fluid-form-box a {
+    color: #fdb106 !important;
+}
+input:-webkit-autofill{
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.auth-fluid .auth-fluid-form-box p {
+    color: #000 !important;
+}
+.auth-user-testimonial h1 {
+    color: #000;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Rubik';
+}
+
+.auth-user-testimonial {
+    position: inherit;
+    text-align: right;
+}
+.auth-fluid{
+	background: #fff;
+}
+.auth-fluid .auth-fluid-right{
+	background: #fff;
+	    position: relative;
+    overflow: hidden;
+}
+/**/
+
+.nerdy-pen {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-content: center;
+	
+}
+.nerdy-pen__text {
+    color: #323030;
+    font-family: 'Montserrat';
+    padding: 1em 0em;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.testimonial_wrap {
+    padding-top: 200px;
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+.testimonial_wrap h3:after {
+    content: '"';
+    font-size: 55px;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+    color: #5737ec;
+    transform: rotate(
+180deg);
+}
+.testimonial_wrap h3:before {
+    content: '"';
+    font-size: 55px;
+    position: absolute;
+    top: -41px;
+    left: 0;
+    color: #5737ec;
+}
+.testimonial_wrap h3 {
+    color: #fe5d04;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    width: fit-content;
+    font-family: 'Montserrat';
+}
+/*.auth-fluid .auth-fluid-right:after {
+    content: url(/public/assetsnew/images/icon_logo_2.png);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}*/
+.footer {
+    position: inherit;
+    bottom: 150px;
+}
+.help {
+    padding: 8px 0px;
+    color: #fd9505;
+}
+.auth-brand {
+    position: inherit;
+    top: 3rem;
+}
+.logo span.logo-lg {
+    display: block;
+    text-align: left;
+}
+.mc-form .select2-selection--single .select2-selection__rendered {
+    line-height: 22px;
+}
+.mc-form .form-control, .mc-form .select2 {
+    border: none;
+}
+.select2-selection--single .select2-selection__arrow:after {
+    content: '\f107';
+    font-family: 'fontawesome';
+}
+.auth-fluid .auth-fluid-form-box input::placeholder {
+        color: #000;
+}
+.select2-container--open .select2-selection--single .select2-selection__arrow:after {
+    content: '\f106 ';
+}
+.back_to_login a {
+    color: #fff !important;
+}
+.back_to_login {
+    text-align: center;
+}
+.form-check {
+    padding-left: 0;
+}
+.iframe-modal {
+    background: #1a1a1adb;
+}
+.iframe-modal .sub-section{
+    border-radius: 10px;
+}
+
+.bg_btn{
+    background: #906de8;
+}
+.auth-fluid .auth-fluid-form-box {
+    max-width: 730px;
+    padding: 5rem 7rem 3rem 7rem;
+}
+.scroller_sideform {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.scroller_sideform::-webkit-scrollbar-thumb {   
+    border-radius: 10px;
+    background: #fe8f05;
+}
+.scroller_sideform::-webkit-scrollbar-track {
+    background: #818181;
+}
+.scroller_sideform::-webkit-scrollbar {
+    width: 7px;
+    background: #818181;
+}
+.slider_preview h2 {
+    color: #000;
+    font-size: 31px;
+    font-family: 'Montserrat';
+    padding-top: 30px;
+}
+.slider_preview .carousel-control-next-icon {
+    background: url(/public/assetsnew/images/right-icon.png);
+}
+.slider_preview .carousel-control-prev-icon{
+     background: url(/public/assetsnew/images/left-icon.png);
+}
+.slider_preview .carousel-control-next{
+    opacity: 5;
+}
+.slider_preview .carousel-control-prev {
+    opacity: 5;
+}
+.slider_preview .carousel-item img {
+    border-radius: 300px;
+    position: relative;
+    border: 2px solid #1608fc;
+    height: 400px;
+    box-shadow: 26px 31px 47px #cfcfcf;
+    width: 400px;
+}
+.quotes {display: none;}
+span.logo-lg img {
+    width: 200px;
+}
+
+.auth-fluid .auth-fluid-form-box input[type=checkbox]:checked + label:before {
+    background: #fe8f05;
+}
+.auth-fluid .auth-fluid-form-box .form-check label:before {
+    width: 14px;
+    height: 14px;
+    background: #818181;
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 4px;
+    border-radius: 3px;
+}
+.auth-fluid .auth-fluid-form-box input[type=checkbox]:checked + label:after {
+    content: '\f00c';
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    font-family: fontawesome;
+}
+.auth-fluid .auth-fluid-form-box input[type=checkbox] {
+    opacity: 0;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+}
+.auth-fluid .auth-fluid-form-box .form-check label {
+    color: #000;
+    position: relative;
+    padding-left: 20px;
+}
+.ui-pnotify{
+    height: 30px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px){
+    .auth-user-testimonial h1 {
+        font-size: 26px;
+    }
+    .auth-user-testimonial {
+    bottom: 1rem;
+}
+.auth-fluid .auth-fluid-right {
+    padding: 3rem 3rem;
+}
+.slider_image img.img {
+    height: 500px !important;
+}
+.slider_preview h2{
+    font-size: 26px;
+}
+}
